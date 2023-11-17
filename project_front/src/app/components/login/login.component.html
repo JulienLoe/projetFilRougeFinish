@@ -1,0 +1,29 @@
+<section>
+  <h1>Login</h1>
+  <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
+  <div class="email">
+    <label for="email">E-mail</label>
+    <input ngModel type="email" name="email" id="email" />
+  </div>
+
+  <div>
+    <label for="password">Password</label>
+    <input ngModel
+      type="password"
+      name="password"
+      id="password"
+    />
+  </div>
+  <div>
+    <button (click)="signIn()" class="glow-on-hover" type="button">Login</button>
+  </div>
+  <span
+    >First visit to Netflux?<button
+    (click)="clickView()"
+    
+      title="Go to register form"
+      >Register
+</button></span
+  >
+</form>
+</section>

@@ -1,0 +1,7 @@
+<div id="grid">
+    <div class="grid-pict" *ngFor="let serie of series">
+      <a>
+        <img (click)="onClickHandler(serie.idDb)" src="https://image.tmdb.org/t/p/w500{{serie.poster_path}}"/>
+      </a>
+    </div>
+  </div>

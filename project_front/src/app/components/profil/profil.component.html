@@ -1,0 +1,52 @@
+<h1>Bienvenue sur votre liste</h1>
+<br>
+<h2>Films Les Plus Réçents</h2>
+<div #widgetsContent class="custom-slider-main list">
+  <div class="pull-left mt-sm">
+    <button class="button-left" (click)="scrollLeft()">&lt;&lt;</button>
+  </div>
+
+  <div class="info-box movie" *ngFor="let movie of movies$.slice(0,20)">
+    <img (click)="onClickHandler(movie.idDb)" src="https://image.tmdb.org/t/p/w500{{movie.poster_path}}" class="info-box" />
+  </div>
+
+  <div class="pull-right mt-sm">
+    <button class="button-right pointer" (click)="scrollRight()">&gt;&gt;</button>
+  </div>
+
+</div>
+
+
+<h2>Films Populaires</h2>
+<div #widgetsContent2 class="custom-slider-main list">
+  <div class="pull-left mt-sm">
+    <button class="button-left" (click)="scrollLeft2()">&lt;&lt;</button>
+  </div>
+
+  <div class="info-box movie" *ngFor="let movie of moviesPop$">
+    <img (click)="onClickHandler(movie.idDb)" src="https://image.tmdb.org/t/p/w500{{movie.poster_path}}" class="info-box" />
+  </div>
+
+  <div class="pull-right mt-sm">
+    <button class="button-right pointer" (click)="scrollRight2()">&gt;&gt;</button>
+  </div>
+
+</div>
+
+
+<h2>Series Populaires</h2>
+<div #widgetsContent3 class="custom-slider-main list">
+  <div class="pull-left mt-sm">
+    <button class="button-left" (click)="scrollLeft3()">&lt;&lt;</button>
+  </div>
+
+  <div class="info-box movie" *ngFor="let serie of seriesPop$">
+    <img (click)="onClickHandler(serie.idDb)" src="https://image.tmdb.org/t/p/w500{{serie.poster_path}}" class="info-box" />
+  </div>
+
+  <div class="pull-right mt-sm">
+    <button class="button-right pointer" (click)="scrollRight3()">&gt;&gt;</button>
+  </div>
+
+</div>
+

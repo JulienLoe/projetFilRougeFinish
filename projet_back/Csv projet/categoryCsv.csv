@@ -1,0 +1,36 @@
+﻿"name","ofSerie","id","idDb"
+"Action",false,1,28
+"Aventure",false,2,12
+"Animation",false,3,16
+"Comédie",false,4,35
+"Crime",false,5,80
+"Documentaire",false,6,99
+"Drame",false,7,18
+"Familial",false,8,10751
+"Fantastique",false,9,14
+"Histoire",false,10,36
+"Horreur",false,11,27
+"Musique",false,12,10402
+"Mystère",false,13,9648
+"Romance",false,14,10749
+"Science-Fiction",false,15,878
+"Téléfilm",false,16,10770
+"Thriller",false,17,53
+"Guerre",false,18,10752
+"Western",false,19,37
+"Action & Adventure",true,20,10759
+"Animation",true,21,16
+"Comédie",true,22,35
+"Crime",true,23,80
+"Documentaire",true,24,99
+"Drame",true,25,18
+"Familial",true,26,10751
+"Kids",true,27,10762
+"Mystère",true,28,9648
+"News",true,29,10763
+"Reality",true,30,10764
+"Science-Fiction & Fantastique",true,31,10765
+"Soap",true,32,10766
+"Talk",true,33,10767
+"War & Politics",true,34,10768
+"Western",true,35,37

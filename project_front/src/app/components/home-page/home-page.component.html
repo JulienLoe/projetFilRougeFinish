@@ -1,0 +1,10 @@
+
+
+<div id="grid">
+    <div class="grid-pict" *ngFor="let movie of movies$">
+      <a>
+        <img (click)="onClickHandler(movie.idDb)" src="https://image.tmdb.org/t/p/w500{{movie.poster_path}}"/>
+      </a>
+    </div>
+  </div>
+  

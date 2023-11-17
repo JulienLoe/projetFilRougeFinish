@@ -1,0 +1,61 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    overflow-y: hidden;
+
+    > .content {
+        background-color: white;
+        /* opacity: 0.9; */
+        border-radius: 20px;
+        padding: 20px;
+        width: min(1400px, 90%);
+        height: min(1000px, 90%);
+        z-index: 9999;
+
+        display: grid;
+        grid-template: 1fr 8fr 1fr / 1fr;
+
+        > .header, .footer {
+            display: flex;
+            align-items: baseline;
+        }
+
+        .header > button {
+          border-radius: 50%;
+        }
+
+        > .footer {
+            justify-content: end;
+        }
+
+        .footer > button {
+          border-radius: 5px;
+        }
+        .footer > button, .header > button {
+          color: white;
+
+          padding: 10px 15px;
+          background: black;
+          border: none;
+          font-weight: bolder;
+
+        }
+        .footer > button:hover, .header > button:hover {
+          background: rgba(0, 0, 0, 0.629);
+          /* color: rgba(0, 0, 0, 0.205); */
+        }
+
+        > .header > button {
+            margin-inline-start: auto;
+        }
+    }
+}

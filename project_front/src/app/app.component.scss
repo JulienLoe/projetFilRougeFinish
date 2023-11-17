@@ -1,0 +1,70 @@
+:host {
+    
+    router-outlet {
+        display: none;
+    }
+}
+.title {
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.date {
+    margin-top: 10px;
+}
+.container {
+    display: flex;
+    width: 100%;
+}
+.image {
+    margin-right: 10px;
+    width: 50%;
+}
+
+.description {
+    margin-left: 10px;
+    width: 50%;
+}
+
+.img {
+    width: 100%;
+}
+.containerCast{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+
+.containerMovie{
+    display: flex;
+
+}
+
+.castDiv{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.overview {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.cast {
+    width: 130px;
+    margin-right: 40px;
+}
+
+.castImg {
+    width: 100%;
+}
+.name {
+    font-weight: bolder;
+    font-size: 0.9em;
+}
+
+.character {
+    font-size: 0.9em;
+}
